@@ -1,0 +1,19 @@
+{
+  "name": "gen/test",
+  "description": "Test task with usage of VK api and RabbitMQ",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "vasilich",
+      "email": "v.ditsyak@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {"Gen\\": "src/"}
+  },
+  "require": {
+    "vladkens/vk": "v0.1.9",
+    "php-amqplib/php-amqplib": "v2.6.3"
+  }
+}
